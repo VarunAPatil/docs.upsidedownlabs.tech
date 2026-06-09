@@ -102,7 +102,7 @@ Arduino IDE will download and install the library. A confirmation message will a
    :align: center
    :alt: Installation confirmation message
 
-   Click Install to install the selected library. The confirmation message shown at the bottom right of Arduino IDE after installation.
+   Click Install to install the selected library. The confirmation message is shown at the bottom right of Arduino IDE after installation.
 
 Step 5: Verify the Installation
 ==================================
@@ -254,7 +254,7 @@ Troubleshooting
    Close and reopen Arduino IDE, then check the list again. If it is still missing, repeat the Add .ZIP Library step.
 
 **"No valid library found in the ZIP" error**
-   This usually means the ZIP was extracted and re-compressed before installation. Download the ZIP fresh from GitHub without unzipping it first, then try to include it again. This issue may or may not happen in your system. This is because some operating systems automatically extract ZIP files when you download them, and if you then re-zip the extracted folder, it may not have the correct structure that Arduino IDE expects.
+   This usually means the ZIP was extracted and re-compressed before installation. Download the ZIP fresh from GitHub without unzipping it first, then try to include it again. This issue may or may not happen on your system. This is because some operating systems automatically extract ZIP files when you download them, and if you then re-zip the extracted folder, it may not have the correct structure that Arduino IDE expects.
 
 **The ZIP failed to download**
    Try refreshing the GitHub page and clicking Download ZIP again. If the repository is private, make sure you are logged into GitHub and have access.
@@ -262,4 +262,4 @@ Troubleshooting
 .. seealso::
 
    - :ref:`resolve-software-issues` for general Arduino IDE troubleshooting tips.
-   - :ref:`upsidedownlabs_contribute` to understand how you can contribute us.
+   - :ref:`upsidedownlabs_contribute` to understand how you can contribute to us.
