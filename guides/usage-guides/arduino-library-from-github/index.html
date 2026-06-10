@@ -57,7 +57,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="" />
-    <meta name="docbuild:last-update" content="Jun 09, 2026"/>
+    <meta name="docbuild:last-update" content="Jun 10, 2026"/>
   </head>
   
   
@@ -831,14 +831,14 @@
 </section>
 <section id="step-8-verify-the-installation">
 <h3>Step 8: Verify the Installation<a class="headerlink" href="#step-8-verify-the-installation" title="Link to this heading">#</a></h3>
-<p>To confirm the library was installed correctly, click <strong>Sketch</strong> &gt; <strong>Include Library</strong> in the menu bar. Scroll down till the end, under the contributed library, look for <strong>ESP32 BLE Combo Keyboard Mouse</strong>.</p>
+<p>To confirm the library was installed correctly, click <strong>Sketch</strong> &gt; <strong>Include Library</strong> in the menu bar. Scroll down till the end, under the contributed libraries, look for <strong>ESP32 BLE Combo Keyboard Mouse</strong>.</p>
 <figure class="align-center" id="id19">
 <img alt="Library appearing in the Include Library list" src="../../../_images/step10.jpg" />
 <figcaption>
 <p><span class="caption-text">The installed library appears at the bottom of the Include Library list</span><a class="headerlink" href="#id19" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<p>Now that you have followed all the steps, your ESP32 BLE Combo Keyboard Mouse library is included in your Arduino globally, and you can use it in any of your sketches by including it at the top of your code:</p>
+<p>Now that you have followed all the steps, the ESP32 BLE Combo Keyboard Mouse library is installed globally in your Arduino IDE, and you can use it in any of your sketches by including it at the top of your code:</p>
 <div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;BleCombo.h&gt;</span>
 </pre></div>
 </div>
@@ -849,7 +849,7 @@
 <dl class="simple">
 <dt><strong>The library does not appear in the list after installation</strong></dt><dd><p>Close and reopen Arduino IDE, then check the list again. If it is still missing, repeat the Add .ZIP Library step.</p>
 </dd>
-<dt><strong>“No valid library found in the ZIP” error</strong></dt><dd><p>This usually means the ZIP was extracted and re-compressed before installation. Download the ZIP fresh from GitHub without unzipping it first, then try to include it again. This issue may or may not happen on your system. This is because some operating systems automatically extract ZIP files when you download them, and if you then re-zip the extracted folder, it may not have the correct structure that Arduino IDE expects.</p>
+<dt><strong>“No valid library found in the ZIP” error</strong></dt><dd><p>This usually means the ZIP was extracted and re-compressed before installation, which can break the folder structure that Arduino IDE expects. Download the ZIP fresh from GitHub without unzipping it first, then try to include it again. Note: some operating systems automatically extract ZIP files on download, so if you re-zip the folder yourself it may not match the expected structure.</p>
 </dd>
 <dt><strong>The ZIP failed to download</strong></dt><dd><p>Try refreshing the GitHub page and clicking Download ZIP again. If the repository is private, make sure you are logged into GitHub and have access.</p>
 </dd>
@@ -998,7 +998,7 @@
     <div class="footer-items__end">
       
         <div class="footer-item"><p class="last-updated">
-  Last updated on Jun 09, 2026.
+  Last updated on Jun 10, 2026.
   <br/>
 </p></div>
       
